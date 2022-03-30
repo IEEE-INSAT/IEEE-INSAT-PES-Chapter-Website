@@ -30,7 +30,8 @@ const Footer = () => {
                             {/*<h3>Contact</h3>*/}
                             <p><i className="fas fa-map-marker-alt"></i> 676 INSAT Centre Urbain Nord BP، Tunis Cedex
                                 1080</p>
-                            <p><i className="fas fa-phone"></i> Phone: +216 5579319</p>
+                            <p><i className="fas fa-phone"></i> Chairwoman's phone number: +216 26 436 114</p>
+                            <p><i className="fas fa-phone"></i> Vice-chairman's phone number: +216 23 080 663</p>
                             <p><i className="fas fa-envelope"></i> Email: ieeepesinsat@gmail.com
                             </p>
                             <div>

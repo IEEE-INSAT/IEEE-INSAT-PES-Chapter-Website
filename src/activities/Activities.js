@@ -183,6 +183,21 @@ const Activities = () => {
 `;
     const latest = [
         {
+            title: "Photovoltaic charger",
+            picture: summerGathering,
+            description: [
+                {
+                    text: "Our year has to be special and unique, here is  our first project that will be a whole process, made from scratch, of the production of a 100% INSAT-made battery using renewable energies."
+                },
+
+            ],
+            date: {
+                day: "01",
+                month: "01",
+                year: "2022"
+            },
+        },
+        {
             title: "Summer gathering",
             picture: summerGathering,
             description: [

@@ -25,30 +25,30 @@ const Team = () => {
             </div>
             <div className="container" css={poste}>
                 <div className="row justify-content-center text-center  ">
-                    <TeamMember memberName={'Sana Jbeli'} memberPic={sana} memberPoste={'ChairWomen'} animation={"flip-left"}
+                    <TeamMember memberName={'Sana Jbeli'} memberPic={sana} memberPoste={'Chairwoman'} animation={"flip-left"}
                                 fb={'https://www.facebook.com/sana.jebali.73'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
                                 text={'sana is an industrial chemistry engineering student with a great passion for management studies.\n' +
                                 'The word she\'d use to describe herself is \'\' ambitious\'\' l. She likes to seek out opportunities and challenges cause she\'s never comfortable with settling.'}/>
-                    <TeamMember memberName={'Khalil Ben Jebara'} memberPic={khalil_jbara} memberPoste={'Vice chair'} animation={"flip-left"}
+                    <TeamMember memberName={'Khalil Ben Jebara'} memberPic={khalil_jbara} memberPoste={'Vice-chairman'} animation={"flip-left"}
                                 fb={'https://www.facebook.com/khalil.benjebara.90'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
                                 text={'khalil is an industrial chemistry engineering student. He is very resourceful and ambitious. He finds solutions, gets creative and solves problems.\n' +
                                 'He likes networking and he is always ready to help others and encourage them to reach their targets.'}/>
-                    <TeamMember memberName={'Nourhen Rjab'} memberPic={nourhene} memberPoste={'General secretary'} animation={"flip-left"}
+                    <TeamMember memberName={'Nourhen Rjab'} memberPic={nourhene} memberPoste={'General Secretary'} animation={"flip-left"}
                                 fb={'https://www.facebook.com/nourhen.rjab123'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
-                                text={'nouhen rjab is a\n' +
-                                'She is passionate about\n' +
-                                'She is attentive and diplomatic person that allowed her to become the greatest general secretary.\n' +
-                                'She always keeps goals in mind and determine to reach them.'}/>
+                                text={
+                                
+                                'She is a diplomatic person who seeks to become the greatest general secretary.\n' +
+                                'She always keeps goals in mind and stays determined to reach them.'}/>
 
                 </div>
 
             </div>
             <div className="container">
                 <div className="row justify-content-center text-center ">
-                    <TeamMember memberName={'Khalil Ben Salah'} memberPic={khalil_salah} memberPoste={'HR manager'} animation={"flip-right"}
+                    <TeamMember memberName={'Khalil Ben Salah'} memberPic={khalil_salah} memberPoste={'HR Manager'} animation={"flip-right"}
                                 fb={'https://www.facebook.com/khalil.bensalah'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
                                 text={'khalil is an industrial chemistry engineering student.\n' +
@@ -60,7 +60,7 @@ const Team = () => {
                                 text={'salma is an industrial biology engineering student.\n' +
                                 'She is passionate about challenges and she is a resourceful person.\n' +
                                 'She is a great negociator who knows how to handle money and finances and she likes to collaborate with others.'}/>
-                    <TeamMember memberName={'Malek Ben Hmida '} memberPic={malek} memberPoste={'Training manager'} animation={"flip-right"}
+                    <TeamMember memberName={'Malek Ben Hmida '} memberPic={malek} memberPoste={'Training Manager'} animation={"flip-right"}
                                 fb={'https://www.facebook.com/malek.benhmida.9216'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
                                 text={'malek is an industrial chemistry engineering student.\n' +
