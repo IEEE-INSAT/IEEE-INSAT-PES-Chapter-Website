@@ -25,7 +25,7 @@ const Team = () => {
             </div>
             <div className="container" css={poste}>
                 <div className="row justify-content-center text-center  ">
-                    <TeamMember memberName={'Sana Jbeli'} memberPic={sana} memberPoste={'Chairwoman'} animation={"flip-left"}
+                    <TeamMember memberName={'Nour Tebbi'} memberPic={sana} memberPoste={'Chairwoman'} animation={"flip-left"}
                                 fb={'https://www.facebook.com/sana.jebali.73'}
                                 li={'https://www.linkedin.com/in/omar-maaref-9814a21b3/'}
                                 text={'sana is an industrial chemistry engineering student with a great passion for management studies.\n' +
