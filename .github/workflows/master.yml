@@ -30,5 +30,5 @@ jobs:
           server: ftp.smart-sfax.org
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          local-dir: ./dist/
+          local-dir: ./build/
           server-dir: /pes-insat.ieee.tn/
