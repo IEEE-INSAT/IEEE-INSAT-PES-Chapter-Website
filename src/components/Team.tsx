@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { AdvancedImage } from "@cloudinary/react";
 import { cld } from "../cloudinary";
 import { fit } from "@cloudinary/url-gen/actions/resize";
