@@ -5,6 +5,7 @@ import Team from "../components/Team";
 import Partners from "../components/Partners";
 import Contact from "../components/Contact";
 import Events from "../components/Events";
+import Gallery from "../components/Gallery";
 
 export default function Landing() {
   return (
@@ -37,6 +38,7 @@ export default function Landing() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      <Gallery />
       <Contact />
     </div>
   );
