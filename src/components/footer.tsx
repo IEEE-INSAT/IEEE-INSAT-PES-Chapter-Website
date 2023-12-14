@@ -3,13 +3,13 @@ import { Logo } from "./header";
 
 const Footer = () => {
   return (
-    <footer className="w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto relative bg-gradient-to-t dark:from-violet-950/20 from-violet-300/50 to-transparent">
+    <footer className="w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto relative bg-gradient-to-t dark:from-emerald-900/20 from-emerald-200/50 to-transparent">
       {/* Grid */}
       <div className="text-center z-10 max-w-[85rem] mx-auto">
         <div className={"flex justify-center items-center"}>
           <a
             className="w-fit mx-auto  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="https://insat.ieee.tn/"
+            href="https://pes-insat.ieee.tn/"
             aria-label="Brand"
           >
             <Logo />
@@ -17,22 +17,27 @@ const Footer = () => {
         </div>
         {/* End Col */}
         <div className="mt-3">
-          <p className="text-gray-500">#StayTrueN'Grow #GrowIntoYoursef</p>
+          <p className="text-gray-500 text-sm max-w-4xl text-center mx-auto py-2">
+            Step into the world of IEEE PES INSAT Student Branch-a place where
+            diversity fuels growth! We invite all to join us on a journey of
+            learning, achievement, and transformation. Together, let's shape a
+            future where limitless opportunities abound.
+          </p>
           <p className="text-gray-500">
-            © IEEE INSAT SB. 2023 All rights reserved.
+            © IEEE PES INSAT SBC. 2023 All rights reserved.
           </p>
         </div>
         {/* Social Brands */}
         <div className="mt-3 space-x-2">
           <a
             className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100  p-2  rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-            href="https://www.facebook.com/IeeeInsatStudentBranch"
+            href="https://www.facebook.com/Ieeepesinsat"
           >
             <FacebookIcon />
           </a>
           <a
             className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 p-2 rounded-full  focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-            href="https://www.instagram.com/ieee.insat.sb/"
+            href="https://www.instagram.com/ieee.pes.insat?igshid=OGQ5ZDc2ODk2ZA=="
           >
             <InstagramIcon />
           </a>

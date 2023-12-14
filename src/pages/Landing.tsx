@@ -1,24 +1,20 @@
 import Hero from "../components/hero";
 import Vision from "../components/Vision";
-import Chapters from "../components/Chapters";
 import Numbers from "../components/Stats";
 import Team from "../components/Team";
 import Partners from "../components/Partners";
 import Contact from "../components/Contact";
-import Masonry from "../components/Masonry";
-import { Marquee } from "../components/Marquee";
+import Events from "../components/Events";
 
 export default function Landing() {
   return (
-    <>
+    <div className={"max-w-6xl mx-auto"}>
       <Hero />
 
-      <Masonry />
-
       <Vision />
-      <Marquee />
       <Numbers />
-      <Chapters />
+      <Events />
+
       <Partners />
       <Team />
       <div className="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
@@ -42,6 +38,6 @@ export default function Landing() {
         ></iframe>
       </div>
       <Contact />
-    </>
+    </div>
   );
 }

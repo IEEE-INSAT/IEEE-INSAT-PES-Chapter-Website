@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { routes } from "../routes";
 import MainLogo from "../assets/LOGO.png";
 
 export const Logo = () => {
@@ -32,7 +31,7 @@ function NavItem({ href, text }: { href: string; text: string }) {
 
 const Header = () => {
   return (
-    <header className="flex flex-wrap justify-center md:flex-nowrap z-50 w-full text-sm sticky top-0 mb-3">
+    <header className="flex flex-wrap justify-center md:flex-nowrap z-50 w-full text-sm absolute top-0 mb-3">
       <nav
         className="mt-6 relative max-w-[85rem] w-11/12 bg-white border border-gray-300 rounded-[36px] mx-2 py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto dark:bg-gray-800 dark:border-gray-700"
         aria-label="Global"
@@ -48,7 +47,19 @@ const Header = () => {
           className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
         >
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7">
-            {routes[0].children?.map((route, index) => (
+            {[
+              { id: "Home", path: "/" },
+              { id: "IEEE INSAT", path: "https://insat.ieee.tn/" },
+              {
+                id: "About IEEE",
+                path: "https://www.ieee.org/about/at-a-glance.html",
+              },
+              { id: "About IEEE PES", path: "https://ieee-pes.org/about-pes/" },
+              {
+                id: "About INSAT",
+                path: "https://insat.rnu.tn/insat/a-propos-de-l'insat",
+              },
+            ].map((route, index) => (
               <NavItem
                 href={route.path ?? "./"}
                 text={route.id ?? ""}

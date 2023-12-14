@@ -1,31 +1,15 @@
 import React from "react";
 
-const LightCompanyLogos = [
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701460591/oorjus6ifo6ixhd7drdn.svg",
-  "https://s3.amazonaws.com/opc-downloads/company_photo/8f5eee37ab4617642e5d8e24cb131958141104726041823150.png",
-];
-const DarkCompanyLogos = [
-  "https://pcp-consulting.fr/assets/images/logo_minimal.png",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hutchinson_%28Unternehmen%29_logo.svg/2560px-Hutchinson_%28Unternehmen%29_logo.svg.png",
-  "https://upload.wikimedia.org/wikipedia/commons/0/06/Logo_STB.png",
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701459612/kifhqp7cbrlhxkrtjmlh.png",
-
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mitsubishi_Electric_logo.svg/800px-Mitsubishi_Electric_logo.svg.png",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/DR%C3%84XLMAIER_Group_Logo.svg/1200px-DR%C3%84XLMAIER_Group_Logo.svg.png",
-];
+const LightCompanyLogos: string[] = [];
+const DarkCompanyLogos: string[] = [];
 const neutralCompanyLogos = [
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701459230/fb7jb1qn682eq6umqojm.jpg",
-  "https://www.orange.tn/images/logo.svg",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Deutsche_Gesellschaft_f%C3%BCr_Internationale_Zusammenarbeit_Logo.svg/2560px-Deutsche_Gesellschaft_f%C3%BCr_Internationale_Zusammenarbeit_Logo.svg.png",
-  "https://www.ilboursa.com/handlers/image_news_get.ashx?id=A60A89AB-2BAA-411A-86F2-465BAF940F17",
-  "https://www.eina4jobs.org/sites/default/files/styles/large/public/2022-04/313d09e5-6952-4a8a-9e8f-a289e2851be1_1.png?itok=KYfs2tOF",
-  "https://www.indabaxtunisia.com/2021/wp-content/uploads/sites/3/2021/09/LogoDTC.png",
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701461337/ahrfevgopy2alsdayu2j.png",
-  "https://www.ubci.tn/wp-content/themes/ubci/img/logo-banque-big.png",
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701461588/lyg24z6aj9eogwlqky3s.png",
-  "https://www.gat.com.tn/sites/default/files/inline-images/logo_0.png",
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/1200px-Coat_of_arms_of_Tunisia.svg.png",
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701539584/je2czfzu930jixpp01s4.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587909/t%C3%A9l%C3%A9chargement%20%281%29%20%281%29.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587910/Logo_STB%20%281%29.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587910/logo-agil%20%281%29.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587910/Logo_Amen_Bank%20%281%29.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587911/t%C3%A9l%C3%A9chargement.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587911/logoslogan.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1702587913/logo-tunur%20%281%29.png",
 ];
 
 const COMMON_LOGO_STYLES =

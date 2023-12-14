@@ -2,7 +2,7 @@ import cs from "../assets/cs.png";
 import ras from "../assets/ras.png";
 import embs from "../assets/embs.png";
 import wie from "../assets/wie.png";
-import pes from "../assets/pes.png";
+import pes from "../assets/LOGO.png";
 import pels from "../assets/pels.png";
 
 function ChapterItem(props: { img?: string }) {
